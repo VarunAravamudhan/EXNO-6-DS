@@ -25,6 +25,7 @@ import matplotlib.pyplot as plt
 df=pd.read_csv("titanic_dataset.csv")
 display(df.head())
 ~~~
+
 <img width="586" height="261" alt="image" src="https://github.com/user-attachments/assets/2c928727-d40e-49dd-b2e0-2800c872ee67" />
 
 ~~~
@@ -35,6 +36,7 @@ sns.lineplot(x=x,y=y)
 plt.title('Line Plot')
 plt.show()
 ~~~
+
 <img width="435" height="308" alt="image" src="https://github.com/user-attachments/assets/0d131c73-a5e3-4910-a945-6f7d72b76baf" />
 
 ~~~
@@ -80,10 +82,6 @@ plt.show()
 ~~~
 
 <img width="442" height="322" alt="image" src="https://github.com/user-attachments/assets/ffdab32c-5f5d-4585-a9c3-8ee55b958890" />
-
-~~~
-
-<img width="442" height="322" alt="image" src="https://github.com/user-attachments/assets/0f545daa-8adb-4444-9425-5e6d783082b3" />
 
 ~~~
 # TO CAPTURE DISTRIBUTIONS
