@@ -49,7 +49,9 @@ sns.lineplot(x=x,y=y3)
 plt.title('Multi Line Plot')
 plt.show()
 ~~~
+
 <img width="419" height="301" alt="image" src="https://github.com/user-attachments/assets/e04fbe82-37d8-411d-9255-2a88f5815313" />
+
 ~~~
 # TO VISUALIZE RELATIONSHIPS
 # 1.Bar Chart
@@ -58,6 +60,7 @@ sns.barplot(x='Embarked',y='Fare',data=df,palette='rainbow')
 plt.title("Fare Of Passenger By Embarked Town")
 plt.show()
 ~~~
+
 <img width="571" height="395" alt="image" src="https://github.com/user-attachments/assets/59b665e7-d86f-4bc7-bb81-8d572db731eb" />
 
 ~~~
@@ -66,14 +69,18 @@ sns.scatterplot(x="Age", y="Fare", data=df)
 plt.title('Scatterplot of Age vs Fare')
 plt.show()
 ~~~
+
 <img width="426" height="309" alt="image" src="https://github.com/user-attachments/assets/3d0253ee-b526-446f-9bcb-ebe1cb7a86bc" />
+
 ~~~
 # 3.Bubble Chart
 sns.scatterplot(x="Age", y="Fare", size="Pclass", data=df, sizes=(30, 200))
 plt.title('Bubble Chart of Age vs Fare, Size by Passenger Class')
 plt.show()
 ~~~
+
 <img width="442" height="322" alt="image" src="https://github.com/user-attachments/assets/ffdab32c-5f5d-4585-a9c3-8ee55b958890" />
+
 ~~~
 
 <img width="442" height="322" alt="image" src="https://github.com/user-attachments/assets/0f545daa-8adb-4444-9425-5e6d783082b3" />
@@ -137,4 +144,4 @@ plt.show()
 
 
 # Result:
-This experiment has been verified with output image successfully
+This experiment has been verified by varun arvamudhan successfully
