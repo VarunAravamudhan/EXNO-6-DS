@@ -59,6 +59,7 @@ plt.title("Fare Of Passenger By Embarked Town")
 plt.show()
 ~~~
 <img width="571" height="395" alt="image" src="https://github.com/user-attachments/assets/59b665e7-d86f-4bc7-bb81-8d572db731eb" />
+
 ~~~
 # 2.Scatter Plot
 sns.scatterplot(x="Age", y="Fare", data=df)
@@ -100,15 +101,18 @@ plt.show()
 sns.violinplot(x="Pclass", y="Fare", data=df)
 plt.show()
 ~~~
+
 <img width="453" height="287" alt="image" src="https://github.com/user-attachments/assets/2d1375d3-95b4-4832-b67d-9d06f7f4c183" />
+
 ~~~
 sns.kdeplot(data=df['Age'], shade=True)
 plt.title('Density Plot of Passenger Ages')
 plt.show()
 ~~~
-<img width="509" height="377" alt="image" src="https://github.com/user-attachments/assets/b45f2420-01fc-4fa1-9302-d6fbe6b13baa" />
-~~~
 
+<img width="509" height="377" alt="image" src="https://github.com/user-attachments/assets/b45f2420-01fc-4fa1-9302-d6fbe6b13baa" />
+
+~~~
 # 5.Heatmap
 numeric_df = df.select_dtypes(include=['float64', 'int64'])
 corr_matrix = numeric_df.corr()
@@ -116,6 +120,7 @@ sns.heatmap(corr_matrix, annot=True, cmap='coolwarm')
 plt.title('Heatmap of Titanic Dataset')
 plt.show()
 ~~~
+
 <img width="421" height="337" alt="image" src="https://github.com/user-attachments/assets/00d53610-e8c6-4a7c-88f1-b70ea25fdc44" />
 
 
@@ -132,4 +137,4 @@ plt.show()
 
 
 # Result:
-This experiment has been verified successfully
+This experiment has been verified with output image successfully
